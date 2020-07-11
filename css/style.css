@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -8300,7 +8295,7 @@ h1, h2, h3, h4, h5,
     margin-top: -130px;
     background: #fff !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 1.8);
     padding: 0 15px; }
     .ftco-navbar-light.scrolled .nav-item > .nav-link {
       color: #000000 !important; }
@@ -8694,7 +8689,7 @@ h1, h2, h3, h4, h5,
 
 .page {
   width: 100%;
-  margin-bottom: 7em; }
+  }
   .page.four {
     margin-bottom: 0; }
   .page .heading {
@@ -9047,7 +9042,9 @@ textarea.form-control {
 
 .ftco-animate {
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+  cursor: pointer;   
+}
 
 .bg-primary {
   background: #3e64ff !important; }
@@ -9062,6 +9059,10 @@ textarea.form-control {
 
 .ftco-section {
   padding: 7em 0;
+  position: relative; 
+}
+.ftco-contact {
+  padding: 3em 0;
   position: relative; 
 }
   @media (max-width: 767.98px) {
@@ -9080,7 +9081,7 @@ textarea.form-control {
 .ftco-footer {
   font-size: 16px;
   background: #000000;
-  padding: 7em 0;
+  padding: 3em 0;
   z-index: 0;
 }
   .ftco-footer .ftco-footer-logo {
