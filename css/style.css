@@ -9689,3 +9689,34 @@ textarea.form-control {
 .particles-js-canvas-el{
   position: absolute;
 }
+
+.internship .card {
+  background-color: rgb(63, 101, 255, 0.01);
+  box-shadow: 3px 3px 3px 0px rgba(63, 101, 255, 0.3); 
+  transition: .5s;
+}
+
+.internship .card:hover {
+  background-color: rgb(63, 101, 255, 0.01);
+  box-shadow: 4px 4px 3px 0px rgba(63, 101, 255, 0.4); 
+  transform: translateY(-4px);
+}
+.internship .card h2{
+  font-size: 30px;
+}
+
+.internship .card h2 .badge-info{
+  background-color: #3f65ff;
+  border-radius: 0px 10px 10px 0px;
+}
+
+
+.internship .card h2 .badge-dark{
+  border-radius: 10px 0px 0px 10px;
+}
+
+@media screen and (max-width: 768px){
+  .internship .card h2{
+    font-size: 16px;
+  }
+}
